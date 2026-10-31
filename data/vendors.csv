@@ -1,0 +1,5 @@
+vendor_id,name,domain,cin,gstin,open_po_value,sole_source,lead_time_days,critical_component,category_manager
+V101,Shree Precision Components Pvt Ltd,shreeprecision.test,U29100MH2004PTC148812,27AABCS1429B1ZQ,82000000,true,120,true,Priya Nair
+V102,Konkan Industrial Supplies Ltd,konkanindustrial.test,L51900MH1998PLC117432,27AAACK5566C1Z8,31000000,false,45,false,Priya Nair
+V103,Deccan Polymers Pvt Ltd,deccanpolymers.test,U25200MH2011PTC219004,27AADCD8812K1ZV,14500000,false,21,false,Arjun Mehta
+V104,Veridian Global Trading Pvt Ltd,veridianglobaltrading.test,U51909MH1998PTC114477,27AAFCV3321H1ZD,46000000,false,30,false,Arjun Mehta

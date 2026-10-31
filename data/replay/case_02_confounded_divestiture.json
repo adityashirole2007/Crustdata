@@ -1,0 +1,753 @@
+{
+  "synthetic": true,
+  "label": "confounded",
+  "expected_outcome": "headcount falls ~29% and the scorer reacts, but the investigation must find the demerger and suppress",
+  "notes": "SYNTHETIC. The hardest case: a divestiture that looks exactly like distress.",
+  "vendor": {
+    "vendor_id": "V102",
+    "name": "Konkan Industrial Supplies Ltd",
+    "domain": "konkanindustrial.test",
+    "cin": "L51900MH1998PLC117432",
+    "gstin": "27AAACK5566C1Z8",
+    "open_po_value": 31000000,
+    "sole_source": false,
+    "lead_time_days": 45,
+    "critical_component": false,
+    "category_manager": "Priya Nair"
+  },
+  "snapshots": [
+    {
+      "as_of": "2026-02-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-02-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 540,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 9
+        },
+        "web_traffic": {
+          "monthly_visits": 88000,
+          "growth_percent": {
+            "qoq": -2.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-03-19",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-03-19T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 548,
+          "growth_percent": {
+            "mom": 1.5,
+            "qoq": 0.0,
+            "yoy": 1.5
+          }
+        },
+        "hiring": {
+          "openings_count": 9
+        },
+        "web_traffic": {
+          "monthly_visits": 88000,
+          "growth_percent": {
+            "qoq": -2.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-04-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-04-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 551,
+          "growth_percent": {
+            "mom": 0.5,
+            "qoq": 0.0,
+            "yoy": 2.0
+          }
+        },
+        "hiring": {
+          "openings_count": 9
+        },
+        "web_traffic": {
+          "monthly_visits": 88000,
+          "growth_percent": {
+            "qoq": -2.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-05-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-05-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 544,
+          "growth_percent": {
+            "mom": -1.3,
+            "qoq": 0.7,
+            "yoy": 0.7
+          }
+        },
+        "hiring": {
+          "openings_count": 9
+        },
+        "web_traffic": {
+          "monthly_visits": 88000,
+          "growth_percent": {
+            "qoq": -2.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-06-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-06-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 389,
+          "growth_percent": {
+            "mom": -28.5,
+            "qoq": -29.0,
+            "yoy": -28.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 61000,
+          "growth_percent": {
+            "qoq": -31.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/demerger",
+            "title": "Company completes demerger of its packaging division via slump sale",
+            "published_at": "2026-06-02"
+          }
+        ],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-07-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-07-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 381,
+          "growth_percent": {
+            "mom": -2.1,
+            "qoq": -30.9,
+            "yoy": -29.4
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 61000,
+          "growth_percent": {
+            "qoq": -31.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/demerger",
+            "title": "Company completes demerger of its packaging division via slump sale",
+            "published_at": "2026-06-02"
+          }
+        ],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-08-16",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-08-16T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 386,
+          "growth_percent": {
+            "mom": 1.3,
+            "qoq": -29.0,
+            "yoy": -28.5
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 61000,
+          "growth_percent": {
+            "qoq": -31.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/demerger",
+            "title": "Company completes demerger of its packaging division via slump sale",
+            "published_at": "2026-06-02"
+          }
+        ],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-09-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 392,
+          "growth_percent": {
+            "mom": 1.6,
+            "qoq": 0.8,
+            "yoy": -27.4
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 61000,
+          "growth_percent": {
+            "qoq": -31.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/demerger",
+            "title": "Company completes demerger of its packaging division via slump sale",
+            "published_at": "2026-06-02"
+          }
+        ],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    },
+    {
+      "as_of": "2026-10-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-10-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Konkan Industrial Supplies Ltd",
+          "website": "konkanindustrial.test",
+          "year_founded": 1998,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 398,
+          "growth_percent": {
+            "mom": 1.5,
+            "qoq": 4.5,
+            "yoy": -26.3
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 61000,
+          "growth_percent": {
+            "qoq": -31.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "V. Rane",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "D. Pai",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "k1",
+            "title": "Good place",
+            "text": "Stable team, salary always on time."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/demerger",
+            "title": "Company completes demerger of its packaging division via slump sale",
+            "published_at": "2026-06-02"
+          }
+        ],
+        "followers": {
+          "count": 9400
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "MIDC Ratnagiri",
+          "all_office_addresses": [
+            "MIDC Ratnagiri",
+            "Navi Mumbai",
+            "Hyderabad"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2024-08-01"
+        },
+        "revenue": {
+          "annual_revenue_inr": 4100000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Industrial Supplies"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 1999
+        }
+      }
+    }
+  ],
+  "registry_facts": []
+}

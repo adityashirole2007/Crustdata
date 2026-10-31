@@ -1,0 +1,735 @@
+{
+  "synthetic": true,
+  "label": "shell",
+  "expected_outcome": "legitimacy score collapses to the critical band; the vendor is escalated as a SHELL, not as a distressed incumbent \u2014 opposite signature, opposite remedy",
+  "notes": "SYNTHETIC. Shell signature: Rs 4.6cr of open POs against 3 staff, never hires, no traffic, 9 entities at one address, one director across 6 entities, 'since 1998' with a 2025 footprint. Nothing is declining \u2014 which is exactly why a single composite risk score would miss it.",
+  "vendor": {
+    "vendor_id": "V104",
+    "name": "Veridian Global Trading Pvt Ltd",
+    "domain": "veridianglobaltrading.test",
+    "cin": "U51909MH1998PTC114477",
+    "gstin": "27AAFCV3321H1ZD",
+    "open_po_value": 46000000,
+    "sole_source": false,
+    "lead_time_days": 30,
+    "critical_component": false,
+    "category_manager": "Arjun Mehta"
+  },
+  "snapshots": [
+    {
+      "as_of": "2026-02-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-02-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-03-19",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-03-19T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-04-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-04-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-05-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-05-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-06-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-06-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-07-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-07-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-08-16",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-08-16T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-09-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    },
+    {
+      "as_of": "2026-10-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-10-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Veridian Global Trading Pvt Ltd",
+          "website": "veridianglobaltrading.test",
+          "year_founded": 1998,
+          "employee_count_range": "1-10"
+        },
+        "headcount": {
+          "total": 3,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 110,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "founders": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "K. Jain",
+              "title": "Director"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 11
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai",
+          "all_office_addresses": [
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai"
+          ]
+        },
+        "funding": {},
+        "revenue": {},
+        "taxonomy": {
+          "industries": [
+            "Trading"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2025,
+          "address_collisions": {
+            "Office 3B, Sagar Plaza, Andheri East, Mumbai": 9
+          },
+          "director_overlap": {
+            "K. Jain": 6
+          }
+        }
+      }
+    }
+  ],
+  "registry_facts": [
+    {
+      "provider": "mca21",
+      "kind": "mca_under_strike_off",
+      "status": "UNDER PROCESS OF STRIKING OFF",
+      "as_of": "2026-09-15",
+      "live": false,
+      "source_url": "https://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do",
+      "detail": {
+        "provenance": "SYNTHETIC \u2014 cached-snapshot shape, invented value"
+      }
+    }
+  ]
+}

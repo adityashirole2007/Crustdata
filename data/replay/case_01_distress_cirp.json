@@ -1,0 +1,1016 @@
+{
+  "synthetic": true,
+  "label": "cirp",
+  "expected_outcome": "page well before the day-0 registry event, led by payroll stress and the CFO exit",
+  "notes": "SYNTHETIC fixture. Curve shape follows the documented precursor sequence; the numbers are invented. Replace with a real CIN via scripts/build_real_case.py before claiming a validated lead time.",
+  "vendor": {
+    "vendor_id": "V101",
+    "name": "Shree Precision Components Pvt Ltd",
+    "domain": "shreeprecision.test",
+    "cin": "U29100MH2004PTC148812",
+    "gstin": "27AABCS1429B1ZQ",
+    "open_po_value": 82000000,
+    "sole_source": true,
+    "lead_time_days": 120,
+    "critical_component": true,
+    "category_manager": "Priya Nair"
+  },
+  "snapshots": [
+    {
+      "as_of": "2026-02-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-02-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 268,
+          "growth_percent": {
+            "mom": 0.0,
+            "qoq": 0.0,
+            "yoy": 0.0
+          }
+        },
+        "hiring": {
+          "openings_count": 14
+        },
+        "web_traffic": {
+          "monthly_visits": 42000,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-03-19",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-03-19T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 272,
+          "growth_percent": {
+            "mom": 1.5,
+            "qoq": 0.0,
+            "yoy": 1.5
+          }
+        },
+        "hiring": {
+          "openings_count": 16
+        },
+        "web_traffic": {
+          "monthly_visits": 44500,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [],
+        "news": [],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-04-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-04-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 265,
+          "growth_percent": {
+            "mom": -2.6,
+            "qoq": 0.0,
+            "yoy": -1.1
+          }
+        },
+        "hiring": {
+          "openings_count": 11
+        },
+        "web_traffic": {
+          "monthly_visits": 41000,
+          "growth_percent": {
+            "qoq": 0.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "S. Iyer",
+              "title": "Chief Financial Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-05-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-05-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 251,
+          "growth_percent": {
+            "mom": -5.3,
+            "qoq": -6.3,
+            "yoy": -6.3
+          }
+        },
+        "hiring": {
+          "openings_count": 9
+        },
+        "web_traffic": {
+          "monthly_visits": 38000,
+          "growth_percent": {
+            "qoq": -9.5
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-06-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-06-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 236,
+          "growth_percent": {
+            "mom": -6.0,
+            "qoq": -13.2,
+            "yoy": -11.9
+          }
+        },
+        "hiring": {
+          "openings_count": 4
+        },
+        "web_traffic": {
+          "monthly_visits": 33000,
+          "growth_percent": {
+            "qoq": -25.8
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          },
+          {
+            "review_id": "r2",
+            "title": "Leaving soon",
+            "text": "Salary not credited on time for three months. PF not deposited."
+          },
+          {
+            "review_id": "r3",
+            "title": "Avoid",
+            "text": "Full and final pending since I resigned. Reimbursement pending too."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-07-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-07-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 208,
+          "growth_percent": {
+            "mom": -11.9,
+            "qoq": -21.5,
+            "yoy": -22.4
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 27000,
+          "growth_percent": {
+            "qoq": -34.1
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "R. Kulkarni",
+              "title": "Chief Operating Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          },
+          {
+            "review_id": "r2",
+            "title": "Leaving soon",
+            "text": "Salary not credited on time for three months. PF not deposited."
+          },
+          {
+            "review_id": "r3",
+            "title": "Avoid",
+            "text": "Full and final pending since I resigned. Reimbursement pending too."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/supplier-dues-1",
+            "title": "Vendors allege unpaid dues at auto components maker",
+            "published_at": "2026-07-17"
+          }
+        ],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-08-16",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-08-16T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 171,
+          "growth_percent": {
+            "mom": -17.8,
+            "qoq": -31.9,
+            "yoy": -36.2
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 19500,
+          "growth_percent": {
+            "qoq": -48.7
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          },
+          {
+            "review_id": "r2",
+            "title": "Leaving soon",
+            "text": "Salary not credited on time for three months. PF not deposited."
+          },
+          {
+            "review_id": "r3",
+            "title": "Avoid",
+            "text": "Full and final pending since I resigned. Reimbursement pending too."
+          },
+          {
+            "review_id": "r4",
+            "title": "Payroll is broken",
+            "text": "No salary this month. Notice period dues unpaid."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/supplier-dues-1",
+            "title": "Vendors allege unpaid dues at auto components maker",
+            "published_at": "2026-07-17"
+          }
+        ],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-09-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 139,
+          "growth_percent": {
+            "mom": -18.7,
+            "qoq": -41.1,
+            "yoy": -48.1
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 14000,
+          "growth_percent": {
+            "qoq": -57.6
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          },
+          {
+            "review_id": "r2",
+            "title": "Leaving soon",
+            "text": "Salary not credited on time for three months. PF not deposited."
+          },
+          {
+            "review_id": "r3",
+            "title": "Avoid",
+            "text": "Full and final pending since I resigned. Reimbursement pending too."
+          },
+          {
+            "review_id": "r4",
+            "title": "Payroll is broken",
+            "text": "No salary this month. Notice period dues unpaid."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/supplier-dues-1",
+            "title": "Vendors allege unpaid dues at auto components maker",
+            "published_at": "2026-07-17"
+          },
+          {
+            "article_url": "https://example-news.test/a/cheque-bounce-1",
+            "title": "Section 138 cheque bounce complaint filed against supplier",
+            "published_at": "2026-09-15"
+          }
+        ],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    },
+    {
+      "as_of": "2026-10-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-10-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Shree Precision Components Pvt Ltd",
+          "website": "shreeprecision.test",
+          "year_founded": 2004,
+          "employee_count_range": "201-500"
+        },
+        "headcount": {
+          "total": 118,
+          "growth_percent": {
+            "mom": -15.1,
+            "qoq": -43.3,
+            "yoy": -56.0
+          }
+        },
+        "hiring": {
+          "openings_count": 0
+        },
+        "web_traffic": {
+          "monthly_visits": 11000,
+          "growth_percent": {
+            "qoq": -59.3
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ],
+          "founders": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "A. Deshmukh",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "M. Bhatt",
+              "title": "VP Manufacturing"
+            }
+          ]
+        },
+        "employee_reviews": [
+          {
+            "review_id": "r1",
+            "title": "Decent work, poor management",
+            "text": "Salary delayed by two weeks this month, again."
+          },
+          {
+            "review_id": "r2",
+            "title": "Leaving soon",
+            "text": "Salary not credited on time for three months. PF not deposited."
+          },
+          {
+            "review_id": "r3",
+            "title": "Avoid",
+            "text": "Full and final pending since I resigned. Reimbursement pending too."
+          },
+          {
+            "review_id": "r4",
+            "title": "Payroll is broken",
+            "text": "No salary this month. Notice period dues unpaid."
+          }
+        ],
+        "news": [
+          {
+            "article_url": "https://example-news.test/a/supplier-dues-1",
+            "title": "Vendors allege unpaid dues at auto components maker",
+            "published_at": "2026-07-17"
+          },
+          {
+            "article_url": "https://example-news.test/a/cheque-bounce-1",
+            "title": "Section 138 cheque bounce complaint filed against supplier",
+            "published_at": "2026-09-15"
+          },
+          {
+            "article_url": "https://example-news.test/a/nclt-admits",
+            "title": "NCLT admits insolvency plea; CIRP commences",
+            "published_at": "2026-10-15"
+          }
+        ],
+        "followers": {
+          "count": 3100
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Plot 42, MIDC Chakan, Pune",
+          "all_office_addresses": [
+            "Plot 42, MIDC Chakan, Pune",
+            "Unit 7, Ranjangaon, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2021-03-18"
+        },
+        "revenue": {
+          "annual_revenue_inr": 1850000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Automotive Components"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2006
+        }
+      }
+    }
+  ],
+  "registry_facts": [
+    {
+      "provider": "ibbi",
+      "kind": "ibbi_cirp_admitted",
+      "status": "CIRP_ADMITTED",
+      "as_of": "2026-10-15",
+      "live": false,
+      "source_url": "https://ibbi.gov.in/en/claims/pub-process/U29100MH2004PTC148812",
+      "detail": {
+        "provenance": "SYNTHETIC \u2014 not a real IBBI announcement"
+      }
+    }
+  ]
+}

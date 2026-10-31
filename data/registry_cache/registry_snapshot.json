@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "_READ_THIS": "Cached registry snapshot. MCA21 and GST have no public API, are captcha-gated, and their terms forbid scraping. The production path is a licensed reseller (Surepass / Signzy / Karza / Perfios / InstaFinancials) behind prahari.registry.base.RegistryProvider. Every record here is stamped with an as_of date and is served as source='registry_cached_snapshot', never as a live lookup.",
+    "_PROVENANCE_WARNING": "The records below are SYNTHETIC placeholders matching the demo fixtures. They are the correct SHAPE of a licensed-provider response; the values are invented. Do not present them as real registry observations. Replace this file with genuine licensed-provider output before any claim of real validation.",
+    "schema_version": 1,
+    "generated_at": "2026-10-31",
+    "live_providers_in_this_build": ["ibbi"],
+    "cached_providers_in_this_build": ["mca21", "gst"]
+  },
+  "mca": {
+    "U29100MH2004PTC148812": {
+      "company_status": "Active",
+      "as_of": "2026-09-30",
+      "last_bs_filing_date": "2025-03-31",
+      "last_agm_date": "2025-09-28",
+      "registered_address": "Plot 42, MIDC Chakan, Pune, Maharashtra 410501",
+      "directors": ["A. Deshmukh", "R. Kulkarni"],
+      "open_charges": 4,
+      "source_url": "https://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "L51900MH1998PLC117432": {
+      "company_status": "Active",
+      "as_of": "2026-09-30",
+      "last_bs_filing_date": "2026-03-31",
+      "last_agm_date": "2026-09-12",
+      "registered_address": "MIDC Ratnagiri, Maharashtra 415639",
+      "directors": ["V. Rane", "D. Pai"],
+      "open_charges": 1,
+      "source_url": "https://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "U25200MH2011PTC219004": {
+      "company_status": "Active",
+      "as_of": "2026-09-30",
+      "last_bs_filing_date": "2026-03-31",
+      "last_agm_date": "2026-08-30",
+      "registered_address": "Hinjewadi Phase II, Pune, Maharashtra 411057",
+      "directors": ["N. Shetty", "G. Rao"],
+      "open_charges": 0,
+      "source_url": "https://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "U51909MH1998PTC114477": {
+      "company_status": "Under Process of Striking Off",
+      "as_of": "2026-09-15",
+      "last_bs_filing_date": "2019-03-31",
+      "last_agm_date": null,
+      "registered_address": "Office 3B, Sagar Plaza, Andheri East, Mumbai 400069",
+      "directors": ["K. Jain"],
+      "open_charges": 0,
+      "source_url": "https://www.mca.gov.in/mcafoportal/viewCompanyMasterData.do",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    }
+  },
+  "gst": {
+    "27AABCS1429B1ZQ": {
+      "gstin_status": "Active",
+      "as_of": "2026-09-30",
+      "gstr3b_filed_months": 9,
+      "gstr3b_gap_months": 3,
+      "source_url": "https://services.gst.gov.in/services/searchtp",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "27AAACK5566C1Z8": {
+      "gstin_status": "Active",
+      "as_of": "2026-09-30",
+      "gstr3b_filed_months": 12,
+      "gstr3b_gap_months": 0,
+      "source_url": "https://services.gst.gov.in/services/searchtp",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "27AADCD8812K1ZV": {
+      "gstin_status": "Active",
+      "as_of": "2026-09-30",
+      "gstr3b_filed_months": 12,
+      "gstr3b_gap_months": 0,
+      "source_url": "https://services.gst.gov.in/services/searchtp",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    },
+    "27AAFCV3321H1ZD": {
+      "gstin_status": "Cancelled",
+      "as_of": "2026-08-20",
+      "gstr3b_filed_months": 0,
+      "gstr3b_gap_months": 14,
+      "source_url": "https://services.gst.gov.in/services/searchtp",
+      "provenance": "SYNTHETIC placeholder — licensed-provider response shape"
+    }
+  }
+}

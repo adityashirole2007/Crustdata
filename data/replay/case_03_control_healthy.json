@@ -1,0 +1,750 @@
+{
+  "synthetic": true,
+  "label": "control",
+  "expected_outcome": "never pages",
+  "notes": "SYNTHETIC. Healthy incumbent \u2014 the false-positive check.",
+  "vendor": {
+    "vendor_id": "V103",
+    "name": "Deccan Polymers Pvt Ltd",
+    "domain": "deccanpolymers.test",
+    "cin": "U25200MH2011PTC219004",
+    "gstin": "27AADCD8812K1ZV",
+    "open_po_value": 14500000,
+    "sole_source": false,
+    "lead_time_days": 21,
+    "critical_component": false,
+    "category_manager": "Arjun Mehta"
+  },
+  "snapshots": [
+    {
+      "as_of": "2026-02-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-02-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 147,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-03-19",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-03-19T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 144,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-04-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-04-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 141,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-05-18",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-05-18T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 138,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-06-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-06-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 135,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-07-17",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-07-17T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 132,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-08-16",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-08-16T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 129,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-09-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-09-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 126,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    },
+    {
+      "as_of": "2026-10-15",
+      "source": "replay_fixture_synthetic",
+      "fetched_at": "2026-10-15T06:00:00+00:00",
+      "payload": {
+        "basic_info": {
+          "name": "Deccan Polymers Pvt Ltd",
+          "website": "deccanpolymers.test",
+          "year_founded": 2011,
+          "employee_count_range": "51-200"
+        },
+        "headcount": {
+          "total": 123,
+          "growth_percent": {
+            "mom": 1.8,
+            "qoq": 5.1,
+            "yoy": 19.0
+          }
+        },
+        "hiring": {
+          "openings_count": 6
+        },
+        "web_traffic": {
+          "monthly_visits": 25000,
+          "growth_percent": {
+            "qoq": 4.0
+          }
+        },
+        "people": {
+          "cxos": [
+            {
+              "name": "N. Shetty",
+              "title": "Chief Executive Officer"
+            },
+            {
+              "name": "G. Rao",
+              "title": "Chief Financial Officer"
+            }
+          ],
+          "founders": [
+            {
+              "name": "N. Shetty",
+              "title": "Founder"
+            }
+          ],
+          "decision_makers": []
+        },
+        "employee_reviews": [
+          {
+            "review_id": "c1",
+            "title": "Solid",
+            "text": "Pay is on time, good growth."
+          }
+        ],
+        "news": [],
+        "followers": {
+          "count": 2600
+        },
+        "locations": {
+          "country": "India",
+          "hq_address": "Hinjewadi, Pune",
+          "all_office_addresses": [
+            "Hinjewadi, Pune"
+          ]
+        },
+        "funding": {
+          "last_fundraise_date": "2025-06-10"
+        },
+        "revenue": {
+          "annual_revenue_inr": 620000000
+        },
+        "taxonomy": {
+          "industries": [
+            "Polymers"
+          ]
+        },
+        "_prahari": {
+          "first_footprint_year": 2012
+        }
+      }
+    }
+  ],
+  "registry_facts": []
+}

@@ -1,0 +1,268 @@
+# Prahari scoring configuration.
+# Everything the scorer does is driven from this file. No magic numbers in code.
+# Weights are relative; the scorer normalises to 0-100.
+
+meta:
+  name: Prahari
+  tagline: Continuous Vendor Risk Agent
+
+# ---------------------------------------------------------------------------
+# Which Crustdata field groups we request. Listed explicitly because /company/enrich
+# defaults to basic_info only. technographics + social_posts are GATED ADD-ONS and
+# return 403 (not an empty payload) if the key lacks entitlement, so they are kept in
+# a separate list and probed once at startup.
+# ---------------------------------------------------------------------------
+crustdata:
+  field_groups:
+    - basic_info
+    - revenue
+    - headcount
+    - funding
+    - hiring
+    - locations
+    - taxonomy
+    - people
+    - competitors
+    - followers
+    - web_traffic
+    - seo
+    - news
+    - social_profiles
+    - software_reviews
+    - employee_reviews
+    - reviews
+    - public_launches
+    - market_intel
+  gated_field_groups:
+    - technographics
+    - social_posts
+  max_companies_per_request: 25
+  requests_per_minute: 15
+
+# ---------------------------------------------------------------------------
+# ARCHETYPE A — Shell-ification. "Is this a real trading business?"
+# Static-but-fake. Recomputed monthly, not on every run.
+# ---------------------------------------------------------------------------
+legitimacy:
+  # Score runs 0 (certainly fake) .. 100 (certainly a real trading business).
+  # Each signal contributes a PENALTY. Score = 100 - sum(weighted penalties).
+  bands:
+    critical: 30    # <30  -> presumed shell, block onboarding / freeze PO
+    high: 50
+    medium: 70
+    clear: 100
+  signals:
+    headcount_vs_turnover:
+      weight: 22
+      # revenue (INR) per employee above this is implausible for a trading business
+      inr_revenue_per_head_implausible: 30000000   # Rs 3 cr / head
+      min_headcount_for_check: 1
+    never_hires:
+      weight: 12
+      # zero openings across this many consecutive monthly snapshots
+      consecutive_zero_snapshots: 3
+    no_web_presence:
+      weight: 14
+      monthly_visits_floor: 500
+    address_collision:
+      weight: 18
+      # N+ distinct companies resolving to the same normalised office address
+      entities_at_address_threshold: 4
+    director_overlap:
+      weight: 16
+      # a person who is a director/cxo at N+ of the monitored/related entities
+      shared_people_threshold: 2
+    incorporation_vs_footprint_age:
+      weight: 10
+      # claims incorporation >= N years before first observable digital footprint
+      implausible_gap_years: 8
+    zero_employee_footprint:
+      weight: 8
+      followers_floor: 50
+      min_employee_reviews: 0
+
+# ---------------------------------------------------------------------------
+# ARCHETYPE B — Operational distress. "Will it fail to deliver / fail to get paid?"
+# Was real, now sinking. Recomputed every run.
+# ---------------------------------------------------------------------------
+distress:
+  bands:
+    # fire on BAND TRANSITION, never on raw value — see alerts.hysteresis
+    watch: 25
+    elevated: 45
+    high: 65
+    critical: 80
+  signals:
+    leadership_exodus:
+      weight: 20
+      lead_time_days: [90, 180]
+      critical_titles: [cfo, chief financial officer, ceo, chief executive,
+                        head of finance, finance director, coo, managing director]
+      # one critical departure = partial, two+ inside the window = full weight
+      window_days: 180
+      full_weight_departures: 2
+    headcount_decline:
+      weight: 18
+      lead_time_days: [60, 180]
+      # percent decline thresholds, on enrich keys mom/qoq/six_months/yoy
+      mom_trigger_pct: -3.0
+      qoq_trigger_pct: -8.0
+      yoy_trigger_pct: -15.0
+      # acceleration: this period's decline steeper than the last
+      acceleration_bonus: 1.35
+    hiring_freeze:
+      weight: 12
+      lead_time_days: [60, 120]
+      # openings fall to <= floor after having been >= prior_activity for a while
+      openings_floor: 0
+      prior_activity_min: 3
+    salary_delay_reviews:
+      weight: 17
+      lead_time_days: [60, 90]
+      keywords:
+        - salary delay
+        - salary not credited
+        - salary is delayed
+        - delayed salary
+        - no salary
+        - payment delayed
+        - pf not deposited
+        - pf not credited
+        - notice period dues
+        - full and final pending
+        - fnf pending
+        - reimbursement pending
+      min_matching_reviews: 2
+    web_traffic_decline:
+      weight: 9
+      lead_time_days: [90, 365]
+      qoq_trigger_pct: -25.0
+    adverse_news:
+      weight: 14
+      lead_time_days: [0, 30]
+      dedup_key: article_url
+      keywords:
+        - insolvency
+        - nclt
+        - ibc
+        - winding up
+        - liquidation
+        - default
+        - defaults
+        - fraud
+        - raid
+        - gst evasion
+        - cheque bounce
+        - section 138
+        - unpaid dues
+        - lay off
+        - layoffs
+        - shuts down
+        - operations halted
+        - resigns
+        - resignation
+    funding_drought:
+      weight: 6
+      months_since_last_raise: 24
+      requires_headcount_growth_below_pct: 0.0
+    restructuring_markers:
+      weight: 6
+      # name change / HQ country change / industry reclassification
+      fields: [basic_info.name, locations.country, taxonomy.industries]
+
+  # Registry hits are not "signals" — they are authoritative facts that
+  # override the model. Digital footprint = early + noisy. Registry = late + certain.
+  registry_overrides:
+    ibbi_cirp_admitted:
+      force_band: critical
+      force_score_floor: 95
+    ibbi_liquidation:
+      force_band: critical
+      force_score_floor: 98
+    mca_strike_off:
+      force_band: critical
+      force_score_floor: 90
+    mca_under_strike_off:
+      force_band: high
+      force_score_floor: 70
+    gstin_cancelled:
+      force_band: high
+      force_score_floor: 72
+    gstin_suspended:
+      force_band: elevated
+      force_score_floor: 55
+
+# ---------------------------------------------------------------------------
+# Priority = f(Distress, Exposure). This is what makes it a procurement product
+# instead of a data toy.
+# ---------------------------------------------------------------------------
+exposure:
+  # open PO value in INR mapped to a 0-1 exposure factor (piecewise linear)
+  po_value_breakpoints:
+    - [0, 0.05]
+    - [500000, 0.20]
+    - [5000000, 0.50]
+    - [50000000, 0.85]
+    - [200000000, 1.00]
+  sole_source_multiplier: 1.6
+  # long lead time means you cannot re-source quickly
+  lead_time_days_breakpoints:
+    - [0, 1.0]
+    - [30, 1.15]
+    - [90, 1.4]
+    - [180, 1.7]
+  critical_component_multiplier: 1.3
+  priority_bands:
+    P1: 60
+    P2: 35
+    P3: 15
+
+# ---------------------------------------------------------------------------
+# Alert fatigue control. A vendor shedding 3% headcount monthly must not fire
+# twelve times. This is the part almost nobody builds.
+# ---------------------------------------------------------------------------
+alerts:
+  hysteresis:
+    # fire only on an UPWARD band transition
+    fire_on_band_increase_only: true
+    # to drop a band you must fall this far below its floor (prevents flapping)
+    downgrade_buffer_points: 8
+  cooldown:
+    # per (vendor_id, signal_id): suppress a repeat of the same signal
+    per_signal_days: 21
+    # per vendor: never more than this many pages regardless of signals
+    per_vendor_max_pages_per_days: 7
+    per_vendor_max_pages: 1
+  case_file:
+    # alerts MERGE into a running case file per vendor, they do not open new tickets
+    merge_into_open_case: true
+    auto_close_after_quiet_days: 90
+
+# ---------------------------------------------------------------------------
+# Investigation agent. Bounded: three tools, five steps.
+# The disconfirmation step is mandatory — it must TRY to kill the alert before firing.
+# ---------------------------------------------------------------------------
+investigation:
+  max_steps: 5
+  allowed_tools: [web_search, web_fetch, company_search, person_enrich, ibbi_lookup]
+  require_disconfirmation: true
+  # named confounders the agent must explicitly rule in or out
+  confounders:
+    - divestiture_or_spinoff
+    - profile_page_split_by_region
+    - budget_cycle_hiring_freeze
+    - rebrand_mistaken_for_shell
+    - seasonal_business
+    - identity_resolution_error
+  # if the agent cannot reach a tool, the case is marked data_unavailable.
+  # It is NEVER allowed to answer from the model's own memory.
+  on_tool_failure: mark_data_unavailable
+
+# ---------------------------------------------------------------------------
+# Citation guard. The renderer REFUSES to emit any claim without evidence.
+# ---------------------------------------------------------------------------
+evidence:
+  strict: true
+  required_fields: [source, source_url, fetched_at, field_path]
+  # claims of these kinds additionally require a from/to pair
+  delta_claim_kinds: [numeric_change, status_change, membership_change]
